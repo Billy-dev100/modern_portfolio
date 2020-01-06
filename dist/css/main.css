@@ -179,7 +179,7 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #8F0101;
+    background: #480202;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
 
@@ -189,7 +189,7 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    border: 3px #FAF4F4; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #eece1a;
@@ -203,7 +203,7 @@ main {
   margin-top: 1rem; }
   .boxes div {
     font-size: 2rem;
-    border: 3px #fff solid;
+    border: 3px #FAF4F4;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
