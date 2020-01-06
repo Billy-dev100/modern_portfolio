@@ -5,9 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: dist/js
+  label: main js
+  match: "**/*"
+- type: document
   path: package-lock.json
   label: theme lock
-  match: "**/*"
 - type: document
   path: package.json
   label: theme config
