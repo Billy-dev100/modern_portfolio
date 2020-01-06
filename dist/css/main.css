@@ -24,7 +24,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.8;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -35,7 +35,7 @@
     justify-content: center;
     float: left;
     width: 50%;
-    height: 180vh;
+    height: 100vh;
     overflow: hidden; }
   .menu-nav {
     margin: 0;
