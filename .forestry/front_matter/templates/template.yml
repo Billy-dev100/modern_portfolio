@@ -1,0 +1,45 @@
+---
+label: template
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: version
+  label: version
+- type: text
+  name: description
+  label: description
+- type: text
+  name: main
+  label: main
+- type: text
+  name: homepage
+  label: homepage
+- type: field_group
+  name: scripts
+  label: scripts
+  fields:
+  - type: text
+    name: sass
+    label: sass
+  - type: text
+    name: deploy
+    label: deploy
+- type: text
+  name: author
+  label: author
+- type: text
+  name: license
+  label: license
+- type: field_group
+  name: dependencies
+  label: dependencies
+  fields:
+  - type: text
+    name: gh-pages
+    label: gh-pages
+  - type: text
+    name: node-sass
+    label: node-sass
