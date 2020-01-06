@@ -4,6 +4,26 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: package.json
+  label: theme config
+  match: "**/*"
+- type: document
+  path: dist/contact.html
+  label: contact
+  match: "**/*"
+- type: document
+  path: dist/work.html
+  label: work
+  match: "**/*"
+- type: document
+  path: dist/about.html
+  label: about
+  match: "**/*"
+- type: document
+  path: dist/index.html
+  label: index
+  match: "**/*"
 - type: directory
   path: dist
   label: Projects
