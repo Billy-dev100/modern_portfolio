@@ -95,6 +95,15 @@
 * {
   box-sizing: border-box; }
 
+.menu-branding.show {
+      transform: translate3d(0, 0, 0); }
+    .menu-branding .portrait {
+      width: 250px;
+      height: 250px;
+      background: url("../img/portrait.png");
+      border-square: 50%;
+      border: solid 3px #990012; }
+
 body {
   background: #FCF7F4;
   color: #4F4F4F;
