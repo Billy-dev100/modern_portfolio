@@ -155,10 +155,7 @@ main {
         color: #000000;
         transition: all 0.5s ease-out; }
 
-        <img src="portrait_main.png"/>
-        <br/> Neil G Van Luven; Founder at Bretcrown Trading.
-
-    main#home h1 {
+main#home h1 {
       margin-top: 10vh; }
       main#home {
     overflow: hidden; }
@@ -170,7 +167,7 @@ main {
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 70%;
     border: #B50000 3px solid; }
   .about-info .bio {
     grid-area: bio;
