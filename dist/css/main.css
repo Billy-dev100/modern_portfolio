@@ -154,10 +154,10 @@ main {
       main .icons a:hover {
         color: #000000;
         transition: all 0.5s ease-out; }
-main#home body{
+main#home body {
 Var qrProfileImg =document.createElement("img")
   qrProfileImg.src="portrait_main.png";
-document.body.appendChild(qrProfileImg);}
+document.body.appendChild(qrProfileImg); }
 
     main#home h1 {
       margin-top: 10vh; }
