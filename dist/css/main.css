@@ -56,7 +56,7 @@
       width: 250px;
       height: 250px;
       background: url("../img/portrait.png");
-      border-radius: 50%;
+      border-radius: 40%;
       border: solid 3px #990012; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
@@ -167,7 +167,7 @@ main#home h1 {
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
-    border-radius: 70%;
+    border-radius: 40%;
     border: #B50000 3px solid; }
   .about-info .bio {
     grid-area: bio;
