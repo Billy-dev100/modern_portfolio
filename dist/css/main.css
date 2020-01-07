@@ -157,6 +157,13 @@ main {
 
     main#home h1 {
       margin-top: 20vh; }
+var img = document.createElement("img");
+ 
+img.src = "portrait.png";
+var src = document.getElementById("x");
+ 
+src.appendChild(img);
+
 main#home {
     overflow: hidden; }
 .about-info {
