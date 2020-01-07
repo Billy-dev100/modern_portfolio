@@ -155,9 +155,8 @@ main {
         color: #000000;
         transition: all 0.5s ease-out; }
 main#home body {
-Var qrProfileImg =document.createElement("img")
-  qrProfileImg.src="portrait_main.png";
-document.body.appendChild(qrProfileImg); }
+        <img src="portrait_main.png"/>
+        <br/> Neil G Van Luven; Founder at Bretcrown Trading. }
 
     main#home h1 {
       margin-top: 10vh; }
