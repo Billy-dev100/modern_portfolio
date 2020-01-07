@@ -155,19 +155,8 @@ main {
         color: #000000;
         transition: all 0.5s ease-out; }
 
-    main#home 
-display: grid;
-  grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
-  grid-template-columns: repeat(3, 1fr); }
-  .about-info .bio-image {
-    grid-area: bioimage;
-    margin: auto;
-    border-radius: 50%;
-    border: #B50000 3px solid; }
-
-h1 {
-      margin-top: 20vh; }
+    main#home h1 {
+      margin-top: 40vh; }
       main#home {
     overflow: hidden; }
 .about-info {
