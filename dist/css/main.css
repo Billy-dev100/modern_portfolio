@@ -168,7 +168,7 @@ main#home h1 {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #B50000 3px solid; }
+    border: #D8D4D4 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
