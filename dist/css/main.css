@@ -186,13 +186,13 @@ main#home h1 {
 
 .column {
   float: right;
-  width: 100%;
+  width: 500%;
   padding: 5px;
 }
 .row::after {
-  content: "text";
+  content: "";
   clear: both;
-  display: grid;
+  display: table;
   
   @media screen and (max-width: 500px) {
   .column {
