@@ -185,18 +185,18 @@ main#home h1 {
 
 
 .column {
-  float: left;
-  width: 50%;
+  float: right;
+  width: 100%;
   padding: 5px;
 }
 .row::after {
-  content: "";
+  content: "text";
   clear: both;
-  display: table;
+  display: grid;
   
   @media screen and (max-width: 500px) {
   .column {
-    width: 50%;
+    width: 100%;
   }
 }
   
