@@ -183,6 +183,23 @@ main#home h1 {
     padding: 0.5rem;
     border-bottom: #990012 5px solid; }
 
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+  @media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+  
 .projects {
   display: grid;
   grid-gap: 0.7rem;
