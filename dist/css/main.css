@@ -183,12 +183,11 @@ main#home h1 {
     padding: 0.5rem;
     border-bottom: #990012 5px solid; }
 
-body
 {
 	margin: 0;
 	padding: 0;
 	background: #262626;
-	font-family: font awesome
+	font-family: sans-serif;
 }
 .container
 {
