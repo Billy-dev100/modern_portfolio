@@ -266,7 +266,7 @@ main#home h1 {
 .flex-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap;}
 
 
 .projects {
