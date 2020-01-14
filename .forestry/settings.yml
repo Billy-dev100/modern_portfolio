@@ -7,7 +7,6 @@ sections:
 - type: document
   path: dist/blog.html
   label: Interviews
-  match: "**/*"
 - type: document
   path: package-lock.json
   label: theme lock
@@ -19,18 +18,13 @@ sections:
   label: contact
 - type: document
   path: dist/work.html
-  label: my-portfolio
+  label: my portfolio
 - type: document
   path: dist/about.html
   label: about
 - type: document
   path: dist/index.html
   label: index
-- type: directory
-  path: dist
-  label: Projects
-  create: documents
-  match: "**/*.md"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
