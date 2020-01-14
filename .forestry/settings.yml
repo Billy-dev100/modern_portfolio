@@ -5,17 +5,6 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: dist/blog.html
-  label: interview
-  match: "**/*"
-- type: directory
-  path: dist/blog.html
-  label: Blog
-  create: all
-  match: "**/*"
-  templates:
-  - contact
-- type: document
   path: package-lock.json
   label: theme lock
 - type: document
@@ -26,7 +15,7 @@ sections:
   label: contact
 - type: document
   path: dist/work.html
-  label: work
+  label: my-portfolio
 - type: document
   path: dist/about.html
   label: about
