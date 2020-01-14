@@ -275,7 +275,8 @@ main#home h1 {
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);}
   .projects img {
-    width: 100%;
+  width: 200px;
+  height: 400px;
     border: 3px #494747 solid; }
     .projects img:hover {
       opacity: 0.5;
