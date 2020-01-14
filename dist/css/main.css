@@ -263,11 +263,11 @@ main#home h1 {
 
 
 
+
 .flex-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;}
-
+  justify-content: space-around;
+}
 
 .projects {
   display: grid;
