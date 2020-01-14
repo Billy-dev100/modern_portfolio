@@ -290,7 +290,7 @@ main#home h1 {
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
       background: #8A8887;
-      color: #808080; }
+      color: #990012; }
       .boxes div:hover span {
         color: #fff; }
 
@@ -299,7 +299,7 @@ main#home h1 {
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem; }
-  .btn:hover, .btn-dark:hover, .btn-light:hover {
+  
     background: #808080;
     color: #fff; }
 
