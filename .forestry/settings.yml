@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: dist/blog.html
+  label: interview
+  match: "**/*"
 - type: directory
   path: dist/blog.html
   label: Blog
