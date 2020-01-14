@@ -263,7 +263,9 @@ main#home h1 {
 
 
 
-
+.flex-container {
+  display: flex;
+  flex-direction: row;
 
 .projects {
   display: grid;
