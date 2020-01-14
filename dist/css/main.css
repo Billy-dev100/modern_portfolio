@@ -300,7 +300,7 @@ main#home h1 {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #990012;
+    background: #808080;
     color: #fff; }
 
 .btn-dark {
