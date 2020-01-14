@@ -265,6 +265,7 @@ main#home h1 {
 
 .flex-container {
   display: flex;
+	flex-wrap: wrap;
   flex-direction: column;
 }
 
