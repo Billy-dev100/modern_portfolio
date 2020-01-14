@@ -267,8 +267,9 @@ main#home h1 {
 
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-gap: 10px 15px;
+  grid-template-columns: repeat(2, 2fr); 
+  grid-template-rows: repeat(1, 100px auto 20%);}
   .projects img {
     width: 100%;
     border: 3px #494747 solid; }
