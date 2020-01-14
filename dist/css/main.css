@@ -293,7 +293,7 @@ main#home h1 {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #990012;
+      background: #C9C2C2;
       color: #990012; }
       .boxes div:hover span {
         color: #fff; }
