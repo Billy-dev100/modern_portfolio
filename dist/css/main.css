@@ -267,10 +267,10 @@ main#home h1 {
 
 .projects {
   display: grid;
-  grid-gap: 0.1px 0.1px;
+  grid-gap: 1px 1px;
   grid-template-columns: repeat(3, 1fr);}
   .projects img {
-    width: 100%;
+    width: 200%;
     border: 3px #494747 solid; }
     .projects img:hover {
       opacity: 0.5;
