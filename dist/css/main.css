@@ -299,22 +299,22 @@ main#home h1 {
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem; }
-  
+  .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #808080;
     color: #fff; }
 
 .btn-dark {
-  background: #990012;
+  background: ##808080;
   color: #fff; }
 
 .btn-light {
-  background: #990012;
+  background: ##808080;
   color: #fff; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #990012;
+  background: ##808080;
   color: #fff;
   height: 60px; }
 
