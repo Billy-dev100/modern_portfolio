@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: dist/blog.html
+  label: Interviews
+  match: "**/*"
+- type: document
   path: package-lock.json
   label: theme lock
 - type: document
