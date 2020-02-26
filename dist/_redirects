@@ -1,2 +1,2 @@
-# Redirect domain aliases to primary domain
-https://www.neilgvanluven.com/* https://www.neilgvanluven.com/:splat 301!
+# Redirect default Netlify subdomain to primary domain
+https://neilgvanluven.netlify.com/* https://www.neilgvanluven.com/:splat 301!
